@@ -1,0 +1,154 @@
+.container {
+  width: 85%;
+  margin: auto;
+}
+
+.custom-container {
+  width: 65%;
+  margin: 0 auto;
+}
+
+.disp-flex {
+  display: flex;
+}
+.align-center {
+  align-items: center;
+}
+.justify-between {
+  justify-content: space-between;
+}
+.justify-around {
+  justify-content: space-around;
+}
+.justify-center {
+  justify-content: center;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.width50 {
+  width: 50%;
+}
+
+.height100 {
+  height: 100%;
+}
+
+.gap-1 {
+  gap: 20px;
+}
+
+.mb-10 {
+  margin-bottom: 10px;
+}
+
+.mb-20 {
+  margin-bottom: 20px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.mb-50 {
+  margin-bottom: 50px;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.position-absolute {
+  position: absolute;
+}
+
+.position-fixed {
+  position: fixed;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("./assets/fonts/Inter-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("./assets/fonts/SpaceGrotesk.ttf") format("truetype");
+  font-weight: 300 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --background: #0b1210;
+  --surface: #131e19;
+  --accent: #91d5ae;
+  --accent-hover: #b5e8ca;
+  --text: #e8eee9;
+  --muted: #a3b3a8;
+  --border: #293d31;
+  --space-grotesk: "Space Grotesk";
+  --inter: "Inter";
+  --inter-bold: "Inter-Bold";
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  margin: 0;
+  min-width: 320px;
+}
+
+h1 {
+  font-family: var(--space-grotesk);
+  font-size: clamp(0.25rem, 5vw, 1.5rem);
+  font-weight: 700;
+  color: var(--text);
+}
+
+h2 {
+  font-family: var(--space-grotesk);
+  font-size: 25px;
+  font-weight: 900;
+  color: var(--text);
+}
+
+h3 {
+  font-family: var(--space-grotesk);
+  font-size: 20px;
+  font-weight: 900;
+  color: var(--text);
+  margin: 0;
+}
+
+p {
+  font-family: var(--inter);
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--muted);
+  margin: 0;
+}

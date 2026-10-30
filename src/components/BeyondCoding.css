@@ -1,0 +1,55 @@
+.beyond-coding h3 {
+  font-family: var(--space-grotesk);
+  color: var(--accent-hover);
+}
+
+.hobbies-flex {
+  gap: 20px;
+  padding: 0;
+  margin: 24px 0 0;
+}
+
+.hobby-item {
+  position: relative;
+}
+
+.hobby-item img {
+  display: block;
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  transition: filter 0.5s ease;
+}
+
+.hobby-item:hover img,
+.hobby-item:focus-visible img {
+  filter: drop-shadow(0 0 10px rgba(181, 232, 202, 0.5));
+}
+
+.hobby-item:focus-visible {
+  outline: 2px solid #b5e8ca;
+  outline-offset: 4px;
+}
+
+.hobby-tooltip {
+  position: absolute;
+  top: calc(0% + 8px);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  padding: 6px 10px;
+  color: #b5e8ca;
+  background: #131e19;
+  border: 1px solid #293d31;
+  border-radius: 6px;
+  font-size: 12px;
+  white-space: nowrap;
+  pointer-events: none;
+  opacity: 0;
+  transition: all 0.5s ease-in-out;
+  font-family: var(--space-grotesk);
+}
+
+.hobby-item:hover .hobby-tooltip {
+  opacity: 1;
+}

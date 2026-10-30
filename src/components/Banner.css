@@ -1,0 +1,77 @@
+section.banner {
+  padding: 250px 0;
+}
+.banner-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.banner-content h2 {
+  font-size: clamp(1.35rem, 3.75vw, 4.75rem);
+}
+
+.banner-title {
+  font-family: var(--inter-bold);
+  font-size: clamp(0.35rem, 3.75vw, 1.35rem);
+  font-weight: 400;
+  color: var(--accent);
+  margin-top: 0;
+}
+
+.banner-name {
+  font-family: var(--inter-bold);
+  font-size: clamp(1.35rem, 3.75vw, 4.75rem);
+  font-weight: 400;
+  color: var(--text);
+  margin: 0;
+}
+
+.banner-intro {
+  font-family: var(--inter-bold);
+  font-size: clamp(1.35rem, 3.75vw, 4.75rem);
+  font-weight: 400;
+  color: var(--muted);
+  margin: 0;
+}
+
+.banner-description {
+  font-family: var(--inter);
+  font-weight: 400;
+  color: var(--muted);
+  margin: 0;
+}
+
+.fb-cta {
+  background: transparent;
+  border: 1px solid var(--accent-hover);
+  width: auto;
+  border-radius: 10px;
+  transition: box-shadow 0.3s ease-in-out;
+}
+
+.fb-cta a {
+  color: var(--accent-hover);
+  text-decoration: none;
+  width: max-content;
+  height: auto;
+  display: inline-flex;
+  padding: 15px 20px;
+  font-size: 18px;
+  font-family: var(--inter);
+}
+
+.fb-cta:hover,
+.fb-cta:focus-within {
+  box-shadow:
+    0 0 20px rgba(145, 213, 174, 0.5),
+    0 0 38px rgba(145, 213, 174, 0.3),
+    inset 0 0 20px rgba(145, 213, 174, 0.1);
+}
+
+@media (min-width: 1200px) {
+  .banner-description {
+    width: 55%;
+  }
+}
