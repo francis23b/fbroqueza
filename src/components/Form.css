@@ -70,7 +70,8 @@
   gap: 8px;
 }
 
-.resume-field input::placeholder {
+.resume-field input::placeholder,
+.resume-field textarea::placeholder {
   font-family: "Inter";
 }
 
