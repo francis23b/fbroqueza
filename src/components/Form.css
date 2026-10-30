@@ -70,6 +70,10 @@
   gap: 8px;
 }
 
+.resume-field input::placeholder {
+  font-family: "Inter";
+}
+
 .resume-field label {
   font-size: 14px;
   font-weight: 500;
