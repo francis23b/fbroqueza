@@ -55,7 +55,7 @@ function Contact() {
     setStatus('sending')
 
     try {
-      const response = await fetch('/api/contact', {
+      const response = await fetch('https://steep-mud-72fc.francismbroqueza.workers.dev/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
