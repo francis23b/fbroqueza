@@ -23,7 +23,7 @@ function Email () {
                 <div className="email-container position-relative disp-flex align-center gap-1">
                     <div className="border-email"></div>
                     <div className="get-in-touch-email disp-flex align-center justify-between width100">
-                        <a href="">francismbroqueza@gmail.com</a>
+                        <a href="mailto:francismbroqueza@gmail.com">francismbroqueza@gmail.com</a>
                         <button
                             type="button"
                             id="contact-me"
