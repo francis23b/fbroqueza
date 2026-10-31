@@ -1,6 +1,6 @@
 import { useEffect, useRef, useState } from 'react'
 import './Form.css'
-import resumePdf from '../assets/image/FBroquezaResume.pdf'
+import resumePdf from '../assets/image/fbroqueza-resume.pdf'
 
 function Form() {
   const dialogRef = useRef(null)
