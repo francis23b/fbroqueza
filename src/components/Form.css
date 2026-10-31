@@ -97,6 +97,7 @@
   background: #0b1210;
   border: 1px solid #293d31;
   border-radius: 8px;
+  font-family: "Inter";
 }
 
 .resume-field textarea {
