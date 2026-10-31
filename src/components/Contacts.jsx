@@ -11,7 +11,7 @@ function Contacts() {
                     <div className="listing disp-flex flex-column justify-between flex-wrap justify-center gap-1">
                         <div className="list-item-contact"><a href="https://github.com/francis23b" target="_blank"><img src={github} alt="Github" /></a></div>
                         {/* <div className="list-item-contact"><a href=""><img src={whatsapp} alt="Whatsapp" /></a></div> */}
-                        <div className="list-item-contact"><a href="https://www.linkedin.com/in/francis-allan-m-broqueza-8544b5111/"><img src={linkedin} alt="Linkedin" /></a></div>
+                        <div className="list-item-contact"><a href="https://www.linkedin.com/in/francis-allan-m-broqueza-8544b5111/" target='_blank'><img src={linkedin} alt="Linkedin" /></a></div>
                     </div>
                 </div>
             </div>
