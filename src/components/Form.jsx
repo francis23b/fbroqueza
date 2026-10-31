@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import './Form.css'
 import resumePdf from '../assets/image/fbroqueza-resume.pdf'
+import francisResume from '../resume/resume_francis.pdf'
 
 function Form() {
   const dialogRef = useRef(null)
@@ -69,7 +70,7 @@ function Form() {
       setStatus('success')
       form.reset()
 
-      window.location.assign(resumePdf)
+      window.location.assign(francisResume)
     } catch {
       setStatus('error')
     }
